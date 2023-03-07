@@ -11,6 +11,8 @@
 		D137A23629B74BC6004CE985 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137A23529B74BC6004CE985 /* ContentView.swift */; };
 		D137A23829B74BC8004CE985 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D137A23729B74BC8004CE985 /* Assets.xcassets */; };
 		D137A23B29B74BC8004CE985 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D137A23A29B74BC8004CE985 /* Preview Assets.xcassets */; };
+		D137A24229B74C65004CE985 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137A24129B74C65004CE985 /* PathView.swift */; };
+		D137A24429B75BD4004CE985 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137A24329B75BD4004CE985 /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		D137A23529B74BC6004CE985 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D137A23729B74BC8004CE985 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D137A23A29B74BC8004CE985 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D137A24129B74C65004CE985 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		D137A24329B75BD4004CE985 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				D137A23329B74BC6004CE985 /* DrawSwiftUIApp.swift */,
 				D137A23529B74BC6004CE985 /* ContentView.swift */,
+				D137A24129B74C65004CE985 /* PathView.swift */,
+				D137A24329B75BD4004CE985 /* ShapeView.swift */,
 				D137A23729B74BC8004CE985 /* Assets.xcassets */,
 				D137A23929B74BC8004CE985 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D137A23629B74BC6004CE985 /* ContentView.swift in Sources */,
+				D137A24229B74C65004CE985 /* PathView.swift in Sources */,
+				D137A24429B75BD4004CE985 /* ShapeView.swift in Sources */,
 				D137A23429B74BC6004CE985 /* DrawSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
