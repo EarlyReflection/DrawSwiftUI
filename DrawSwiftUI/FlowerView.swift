@@ -15,7 +15,7 @@ struct FlowerView: View {
     var body: some View {
         VStack {
             Flower(petalOffset: petalOffset, petalWidth: petalWidth, petals: petals)
-                .fill(.blue, style: FillStyle(eoFill: true))
+                .fill(.blue, style: FillStyle(eoFill: true)) // fill with overlapping
                 .frame(width: 300, height: 300)
             VStack {
                 Text("Offset")
@@ -23,7 +23,7 @@ struct FlowerView: View {
             Text("Width")
             Slider(value: $petalWidth, in: 0...100)
                 Text("Petals")
-                Slider(value: $petals, in: 2...64, step: 2)
+                Slider(value: $petals, in: 2...64, step: 1)
             }
             .padding()
             .padding(.top, 100)

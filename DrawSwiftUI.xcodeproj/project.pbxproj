@@ -14,6 +14,7 @@
 		D137A24229B74C65004CE985 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137A24129B74C65004CE985 /* PathView.swift */; };
 		D137A24429B75BD4004CE985 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137A24329B75BD4004CE985 /* ShapeView.swift */; };
 		D1B0004229B78C66007868D5 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B0004129B78C66007868D5 /* FlowerView.swift */; };
+		D1B0004429B7B018007868D5 /* TrapezoidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B0004329B7B018007868D5 /* TrapezoidView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D137A24129B74C65004CE985 /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		D137A24329B75BD4004CE985 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 		D1B0004129B78C66007868D5 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		D1B0004329B7B018007868D5 /* TrapezoidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				D137A24129B74C65004CE985 /* PathView.swift */,
 				D137A24329B75BD4004CE985 /* ShapeView.swift */,
 				D1B0004129B78C66007868D5 /* FlowerView.swift */,
+				D1B0004329B7B018007868D5 /* TrapezoidView.swift */,
 				D137A23729B74BC8004CE985 /* Assets.xcassets */,
 				D137A23929B74BC8004CE985 /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 				D137A23629B74BC6004CE985 /* ContentView.swift in Sources */,
 				D137A24229B74C65004CE985 /* PathView.swift in Sources */,
 				D1B0004229B78C66007868D5 /* FlowerView.swift in Sources */,
+				D1B0004429B7B018007868D5 /* TrapezoidView.swift in Sources */,
 				D137A24429B75BD4004CE985 /* ShapeView.swift in Sources */,
 				D137A23429B74BC6004CE985 /* DrawSwiftUIApp.swift in Sources */,
 			);
